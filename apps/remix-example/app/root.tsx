@@ -7,6 +7,7 @@ import {
   Scripts,
   ScrollRestoration,
 } from "@remix-run/react";
+import { Button } from "ui";
 
 export const meta: MetaFunction = () => ({
   charset: "utf-8",
@@ -18,7 +19,9 @@ export default function App() {
   return (
     <html lang="en">
       <head>
+        <Button />
         <Meta />
+        <Button />
         <Links />
       </head>
       <body>

@@ -2,6 +2,9 @@
 	"name": "example",
 	"main": "index.ts",
 	"version": "0.0.0",
+	"scripts": {
+		"build": "FORCE_COLOR=1 node esbuild"
+	},
 	"dependencies": {
 		"esbuild": "^0.15.14",
 		"ui": "*"
